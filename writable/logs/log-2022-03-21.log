@@ -1,0 +1,52 @@
+CRITICAL - 2022-03-21 01:09:19 --> Undefined array key "id"
+#0 C:\wamp64\www\websetup\app\Views\dashboards\footerpage.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\DashboardPageFooter.php(24): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageFooter->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-21 21:41:46 --> Class "App\Controllers\BackgroundImageModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHeader->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-03-21 21:43:11 --> Class "App\Controllers\BackgroundImageModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHeader->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-03-21 21:43:12 --> Class "App\Controllers\BackgroundImageModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHeader->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-03-21 21:43:21 --> Undefined variable $logo
+#0 C:\wamp64\www\websetup\app\Views\dashboards\headerpage.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\DashboardPageHeader.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHeader->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-21 21:43:57 --> Class "App\Controllers\HeaderInfoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHeader->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}

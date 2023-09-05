@@ -1,0 +1,13 @@
+CRITICAL - 2022-08-17 23:13:54 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('layouts/header', Array, true)
+#2 C:\wamp64\www\websetup\app\Views\home_view.php(3): view('layouts/header')
+#3 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('home_view', Array, true)
+#6 C:\wamp64\www\websetup\app\Controllers\HomePage.php(60): view('home_view', Array)
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

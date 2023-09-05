@@ -1,0 +1,16 @@
+CRITICAL - 2022-03-02 00:30:09 --> Undefined variable $user
+#0 C:\wamp64\www\websetup\app\Views\layouts\header.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Views\layouts\main_view.php(3): view()
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#8 C:\wamp64\www\websetup\app\Controllers\HomePage.php(16): view()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#14 {main}

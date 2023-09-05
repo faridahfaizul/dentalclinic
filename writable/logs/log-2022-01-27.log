@@ -1,0 +1,6 @@
+CRITICAL - 2022-01-27 01:14:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\wamp64\www\demo\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\wamp64\www\demo\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\demo\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\demo\spark(45): require('...')
+#4 {main}

@@ -1,0 +1,210 @@
+CRITICAL - 2022-02-23 00:28:05 --> Class "CI_Controller" not found
+#0 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-23 00:28:25 --> Class "Controller" not found
+#0 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-23 00:28:39 --> Class "Controller" not found
+#0 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-23 00:28:41 --> Class "Controller" not found
+#0 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-23 00:28:59 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:29:01 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:30:13 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\GoogleLogin->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:31:58 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:31:59 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:32:01 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:32:21 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:32:22 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:33:43 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:33:45 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:33:47 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:35:55 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:35:57 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:36:00 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\GoogleLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:39:58 --> Class "App\Controllers\Google_Client" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\GoogleLogin->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:40:01 --> Class "App\Controllers\Google_Client" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\GoogleLogin->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 00:40:14 --> Undefined property: App\Controllers\GoogleLogin::$session
+#0 C:\wamp64\www\websetup\app\Controllers\GoogleLogin.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\GoogleLogin->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-23 00:40:17 --> Undefined property: App\Controllers\GoogleLogin::$session
+#0 C:\wamp64\www\websetup\app\Controllers\GoogleLogin.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\GoogleLogin->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-23 01:47:39 --> Class "CI_Controller" not found
+#0 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-23 01:47:48 --> Class "Controller" not found
+#0 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-23 01:48:22 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\FBLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 01:48:23 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\FBLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 01:48:25 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\FBLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-23 01:48:36 --> Cannot call constructor
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(802): App\Controllers\FBLogin->__construct()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}

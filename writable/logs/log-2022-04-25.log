@@ -1,0 +1,88 @@
+CRITICAL - 2022-04-25 01:12:09 --> Undefined variable $menu
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(189): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-25 01:12:41 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(192): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-25 01:13:28 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(192): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-25 01:14:31 --> Call to undefined function App\Controllers\delete_sub_page()
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-25 01:18:56 --> rmdir(C:\wamp64\www\websetup\app\Controllers/InfosSubmenupage): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(248): rmdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(200): delete_sub_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-25 01:19:47 --> Call to undefined function App\Controllers\delete_sub_page()
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-25 01:21:40 --> rmdir(C:\wamp64\www\websetup\app\Controllers/Infos/Submenu): Directory not empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(248): rmdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(200): delete_sub_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-25 01:25:43 --> unlink(C:\wamp64\www\websetup\app\iIews/infos/submenu/submenu.php): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(253): unlink()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(200): delete_sub_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-25 01:33:46 --> unlink(C:\wamp64\www\websetup\app\Views/test.php): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(253): unlink()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(126): delete_menu_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-25 02:05:55 --> rmdir(C:\wamp64\www\websetup\app\Controllers/Infos): Directory not empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(250): rmdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(126): delete_menu_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}

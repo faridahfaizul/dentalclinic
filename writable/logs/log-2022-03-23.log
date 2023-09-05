@@ -1,0 +1,418 @@
+ERROR - 2022-03-23 00:02:26 --> Column 'image' cannot be null
+CRITICAL - 2022-03-23 00:02:26 --> Column 'image' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#7 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(58): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->storeSlider()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#13 {main}
+ERROR - 2022-03-23 00:07:41 --> Column 'showCheck' cannot be null
+CRITICAL - 2022-03-23 00:07:41 --> Column 'showCheck' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#7 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(57): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->storeSlider()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#13 {main}
+CRITICAL - 2022-03-23 00:19:20 --> Undefined array key ""
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->storeSlider()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 00:20:47 --> Undefined array key ""
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->storeSlider()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 00:30:39 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(253): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 00:30:41 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(253): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 00:30:44 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(253): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 00:30:45 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(253): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 00:53:47 --> could not find driver
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(322): PDO->__construct()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 00:59:22 --> Call to a member function prepare() on bool
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-03-23 01:06:07 --> Undefined array key "$imagefile"
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 01:08:59 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 01:09:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''topic', 'description', 'link', 'image', 'showCheck') values ('Testing', 'test',' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(333): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 01:11:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''topic', 'description', 'link', 'showCheck') values ('Testing', 'test', 'http://' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(332): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 01:13:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''topic', 'description', 'link', 'image', 'showCheck') values ('tes1', 'tes', 'ht' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(333): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 01:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''topic', 'description', 'link', 'showCheck') values ('tes1', 'testing', 'http://' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(332): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 01:16:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''image','topic', 'description', 'link', 'showCheck') values ('ÿØÿáŽExif' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(333): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-03-23 01:18:31 --> Column 'image' cannot be null
+CRITICAL - 2022-03-23 01:18:31 --> Column 'image' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#7 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(58): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->storeSlider()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#13 {main}
+CRITICAL - 2022-03-23 01:37:28 --> Table 'websetup.slide' doesn't exist
+#0 C:\wamp64\www\websetup\app\Controllers\index.php(31): mysqli_query()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once('...')
+#2 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-23 01:37:56 --> Undefined variable $slider
+#0 C:\wamp64\www\websetup\app\Controllers\index.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(518): include_once('...')
+#2 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-23 02:21:47 --> mysqli_select_db() expects exactly 2 arguments, 1 given
+#0 C:\wamp64\www\websetup\app\Views\admin\headerpage.php(93): mysqli_select_db()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 02:26:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''image') VALUES ('ÿØÿáŽExif\0\0MM\0*\0\0\0\0\0\0\0\0\0¥\0\0\0\0\' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\headerpage.php(98): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 02:28:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''image') VALUES ('ÿØÿáŽExif' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\headerpage.php(98): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 02:30:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''image') VALUES ('ÿØÿáŽExif' at line 1
+#0 C:\wamp64\www\websetup\app\Views\admin\headerpage.php(98): mysqli_query()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(20): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-23 02:33:49 --> Undefined array key "7.jpg"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:36:45 --> Undefined array key ""
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:36:55 --> Undefined array key "01.png"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:37:40 --> Undefined array key "01.png"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:38:31 --> Undefined array key "7.jpg"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:41:01 --> Undefined array key ""
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:41:11 --> Undefined array key "6.png"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:41:37 --> Undefined array key "2.jpg"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:43:03 --> Undefined array key ""
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:43:11 --> Undefined array key "6.png"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:43:57 --> Undefined variable $image
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:44:21 --> Undefined array key "6.png"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:45:10 --> Undefined array key "7.jpg"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:46:36 --> Undefined variable $image
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 02:47:16 --> Undefined array key "2.jpg"
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->updateBackground()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-03-23 21:36:33 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\wamp64\www\websetup\app\Controllers\AdminPageFooter.php(24): view()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageFooter->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}

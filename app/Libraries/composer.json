@@ -1,0 +1,16 @@
+{
+    "name": "google/login",
+    "description": "google login with ci4",
+    "autoload": {
+        "psr-4": {
+            "Google\\Login\\": "scr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faridah",
+            "email": "syrhfaizul98@gmail.com"
+        }
+    ],
+    "require": {}
+}

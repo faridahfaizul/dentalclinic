@@ -1,0 +1,51 @@
+CRITICAL - 2022-03-11 01:27:41 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\DashboardPageHome.php(24): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHome->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-11 01:28:24 --> Undefined variable $logo
+#0 C:\wamp64\www\websetup\app\Views\dashboards\homepage.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\DashboardPageHome.php(24): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-03-11 01:33:26 --> Class "App\Controllers\LogoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHome->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-03-11 01:34:56 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\DashboardPageHome.php(28): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHome->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-11 01:37:58 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\dashboards\homepage.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\DashboardPageHome.php(28): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\DashboardPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}

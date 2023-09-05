@@ -1,0 +1,19 @@
+CRITICAL - 2022-02-16 22:30:45 --> Class "App\Controllers\CI_Controller" not found
+#0 C:\wamp64\www\webpage\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\webpage\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#2 C:\wamp64\www\webpage\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 C:\wamp64\www\webpage\system\CodeIgniter.php(790): class_exists()
+#5 C:\wamp64\www\webpage\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\webpage\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\webpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\webpage\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-16 22:31:03 --> Undefined property: App\Controllers\HomePage::$load
+#0 C:\wamp64\www\webpage\app\Controllers\HomePage.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\webpage\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#2 C:\wamp64\www\webpage\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\webpage\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\webpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\webpage\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}

@@ -1,0 +1,28 @@
+ERROR - 2022-02-04 01:05:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-04 01:05:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\wamp64\www\demo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\demo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 C:\wamp64\www\demo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\demo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\demo\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-02-04 01:05:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-04 01:05:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\wamp64\www\demo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\demo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 C:\wamp64\www\demo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\demo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\demo\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}

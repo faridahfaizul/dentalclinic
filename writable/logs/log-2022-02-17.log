@@ -1,0 +1,20 @@
+CRITICAL - 2022-02-17 19:41:33 --> Invalid file: login.php
+#0 C:\wamp64\www\webpage\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\wamp64\www\webpage\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\webpage\app\Controllers\LogIn.php(12): view()
+#3 C:\wamp64\www\webpage\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#4 C:\wamp64\www\webpage\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\webpage\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\webpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\webpage\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-17 19:42:25 --> Invalid file: login2.php
+#0 C:\wamp64\www\webpage\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\wamp64\www\webpage\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\webpage\app\Controllers\Login2.php(12): view()
+#3 C:\wamp64\www\webpage\system\CodeIgniter.php(825): App\Controllers\Login2->index()
+#4 C:\wamp64\www\webpage\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\webpage\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\webpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\webpage\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}

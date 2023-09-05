@@ -1,0 +1,145 @@
+CRITICAL - 2022-07-14 02:35:30 --> Undefined array key "image"
+#0 C:\wamp64\www\websetup\app\Views\home_view.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\HomePage.php(58): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-07-14 02:51:41 --> Undefined variable $imageName
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageTeam.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-07-14 02:51:56 --> Call to a member function isValid() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-07-14 02:52:55 --> Call to a member function getRandomName() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-07-14 02:54:00 --> Call to a member function getClientExtension() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-07-14 02:54:24 --> Call to a member function getExtension() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-07-14 02:54:45 --> Call to a member function getTempName() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-07-14 02:56:00 --> Call to a member function getClientName() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-07-14 03:18:53 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Gallery.php(62): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Gallery->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-07-14 04:26:13 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Gallery.php(62): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Gallery->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-07-14 05:36:07 --> Undefined array key "caption"
+#0 C:\wamp64\www\websetup\app\Views\gallery.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\Gallery.php(62): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Gallery->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-07-14 05:36:41 --> Undefined array key "caption"
+#0 C:\wamp64\www\websetup\app\Views\gallery.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\Gallery.php(62): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Gallery->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-07-14 05:36:43 --> Undefined array key "caption"
+#0 C:\wamp64\www\websetup\app\Views\gallery.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\Gallery.php(62): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Gallery->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-07-14 06:15:52 --> Undefined variable $gallery3
+#0 C:\wamp64\www\websetup\app\Views\gallery.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\Gallery.php(62): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Gallery->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-07-14 22:15:47 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\wamp64\www\websetup\app\Views\appointment.php(109): view()
+#4 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#5 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#7 C:\wamp64\www\websetup\app\Controllers\Appointment.php(68): view()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Appointment->index()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#13 {main}

@@ -1,0 +1,79 @@
+CRITICAL - 2022-04-22 00:14:08 --> ucwords(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(161): ucwords()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-22 00:15:14 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(92): mkdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(164): create_sub_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-22 00:21:37 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(92): mkdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(164): create_sub_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-22 00:26:33 --> syntax error, unexpected token "try", expecting identifier
+#0 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-22 00:50:42 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(92): mkdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(164): create_sub_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-22 02:14:37 --> syntax error, unexpected identifier "data", expecting "," or ";"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Infos\Infos.php(54): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Infos\Infos->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-22 02:14:39 --> syntax error, unexpected identifier "data", expecting "," or ";"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Infos\Infos.php(54): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Infos\Infos->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-22 02:14:42 --> syntax error, unexpected identifier "data", expecting "," or ";"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Infos\Infos.php(54): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Infos\Infos->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}

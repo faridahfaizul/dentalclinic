@@ -1,0 +1,215 @@
+CRITICAL - 2022-04-20 00:33:43 --> Invalid file: newtest.php
+#0 C:\wamp64\www\websetup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Newtest\HomePage.php(54): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Newtest\HomePage->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 00:38:23 --> syntax error, unexpected variable "$controller_name", expecting "{"
+#0 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 00:50:02 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 C:\wamp64\www\websetup\system\Router\Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 01:04:06 --> Undefined variable $menu
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 01:04:49 --> Unsupported operand types: string / string
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-20 01:05:44 --> Unsupported operand types: string / string
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-20 01:05:46 --> Unsupported operand types: string / string
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-20 01:07:05 --> Undefined array key "url"
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 01:08:54 --> Undefined array key "url"
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 01:08:56 --> Undefined array key "url"
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 01:09:09 --> Unsupported operand types: string / string
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-20 01:09:19 --> Unsupported operand types: string / string
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-20 01:09:21 --> Unsupported operand types: string / string
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-20 01:10:00 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\wamp64\www\websetup\app\Config\Routes.php on line 50 and at least 2 expected
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->get()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 01:11:21 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\wamp64\www\websetup\app\Config\Routes.php on line 50 and at least 2 expected
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->get()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 01:48:41 --> Undefined variable $folderView
+#0 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(89): create_new_page()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-20 01:49:43 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(6): mkdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(89): create_new_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 02:59:06 --> Invalid file: newpage.php
+#0 C:\wamp64\www\websetup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Newpage.php(53): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Newpage->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 21:24:23 --> Undefined variable $folder
+#0 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(89): create_new_page()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-20 21:24:40 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(5): mkdir()
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(89): create_new_page()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 21:36:15 --> Undefined variable $route
+#0 C:\wamp64\www\websetup\app\Config\Routes.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(706): require('...')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-20 22:06:03 --> Undefined array key 1
+#0 C:\wamp64\www\websetup\system\Router\Router.php(429): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-20 22:17:36 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 C:\wamp64\www\websetup\system\Router\Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 C:\wamp64\www\websetup\system\Router\Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 22:39:49 --> Cannot redeclare Config\_set_default_controller() (previously declared in C:\wamp64\www\websetup\app\Config\Routes.php:64)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-20 23:01:30 --> Invalid file: submenu/submenu.php
+#0 C:\wamp64\www\websetup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\wamp64\www\websetup\app\Controllers\Newpage\Submenu\HomePage.php(54): view()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Newpage\Submenu\HomePage->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-20 23:52:51 --> Undefined variable $routes
+#0 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(89): create_new_page()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}

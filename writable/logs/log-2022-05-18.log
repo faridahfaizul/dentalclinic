@@ -1,0 +1,47 @@
+CRITICAL - 2022-05-18 00:43:14 --> Undefined variable $services
+#0 C:\wamp64\www\websetup\app\Views\services.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\Services.php(50): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Services->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-18 03:02:04 --> Undefined array key "app_contact"
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(17): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-18 22:36:23 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\wamp64\www\websetup\app\Controllers\Appointment.php(22): view()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Appointment->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-05-18 23:20:57 --> Undefined array key "address2"
+#0 C:\wamp64\www\websetup\app\Views\appointment.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\Appointment.php(22): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Appointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}

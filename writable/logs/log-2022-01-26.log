@@ -1,0 +1,98 @@
+CRITICAL - 2022-01-26 19:26:09 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\wamp64\www\demo\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 C:\wamp64\www\demo\system\Database\Config.php(78): CodeIgniter\Database\Database->load()
+#2 C:\wamp64\www\demo\system\Validation\Rules.php(132): CodeIgniter\Database\Config::connect()
+#3 C:\wamp64\www\demo\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 C:\wamp64\www\demo\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 C:\wamp64\www\demo\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\wamp64\www\demo\app\Controllers\Register.php(28): CodeIgniter\Controller->validate()
+#7 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-01-26 19:26:32 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\wamp64\www\demo\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 C:\wamp64\www\demo\system\Database\Config.php(78): CodeIgniter\Database\Database->load()
+#2 C:\wamp64\www\demo\system\Model.php(97): CodeIgniter\Database\Config::connect()
+#3 C:\wamp64\www\demo\app\Controllers\Login.php(17): CodeIgniter\Model->__construct()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-01-26 19:33:54 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\wamp64\www\demo\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 C:\wamp64\www\demo\system\Database\Config.php(78): CodeIgniter\Database\Database->load()
+#2 C:\wamp64\www\demo\system\Model.php(97): CodeIgniter\Database\Config::connect()
+#3 C:\wamp64\www\demo\app\Controllers\Login.php(17): CodeIgniter\Model->__construct()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-01-26 19:46:00 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\wamp64\www\demo\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 C:\wamp64\www\demo\system\Database\Config.php(78): CodeIgniter\Database\Database->load()
+#2 C:\wamp64\www\demo\system\Model.php(97): CodeIgniter\Database\Config::connect()
+#3 C:\wamp64\www\demo\app\Controllers\Login.php(17): CodeIgniter\Model->__construct()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-01-26 22:09:53 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\wamp64\www\demo\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 C:\wamp64\www\demo\system\Database\Config.php(78): CodeIgniter\Database\Database->load()
+#2 C:\wamp64\www\demo\system\Model.php(97): CodeIgniter\Database\Config::connect()
+#3 C:\wamp64\www\demo\app\Controllers\Login.php(17): CodeIgniter\Model->__construct()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-01-26 23:18:59 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\wamp64\www\demo\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 C:\wamp64\www\demo\system\Database\Config.php(78): CodeIgniter\Database\Database->load()
+#2 C:\wamp64\www\demo\system\Model.php(97): CodeIgniter\Database\Config::connect()
+#3 C:\wamp64\www\demo\app\Controllers\Login.php(17): CodeIgniter\Model->__construct()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-01-26 23:20:09 --> Error connecting to the database: Unknown database 'login_db'
+CRITICAL - 2022-01-26 23:20:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'login_db'
+#0 C:\wamp64\www\demo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\demo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 C:\wamp64\www\demo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\demo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\demo\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-01-26 23:38:55 --> Unknown column 'user_email' in 'where clause'
+CRITICAL - 2022-01-26 23:38:55 --> Unknown column 'user_email' in 'where clause'
+#0 C:\wamp64\www\demo\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\wamp64\www\demo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\wamp64\www\demo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\wamp64\www\demo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 C:\wamp64\www\demo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\demo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\demo\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\demo\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#8 C:\wamp64\www\demo\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}

@@ -1,0 +1,644 @@
+CRITICAL - 2023-09-04 00:24:12 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\w...', 68)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:24:17 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\w...', 68)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:32:00 --> syntax error, unexpected token "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:32:28 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-04 00:33:46 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-04 00:35:10 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-04 00:36:29 --> syntax error, unexpected token "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:36:54 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-04 00:41:36 --> syntax error, unexpected token ":"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:42:36 --> syntax error, unexpected token ","
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:42:38 --> syntax error, unexpected token ","
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:42:47 --> Undefined array key "id"
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 66)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:42:49 --> Undefined array key "id"
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 66)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:43:25 --> syntax error, unexpected token "var", expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:43:48 --> syntax error, unexpected token "const", expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:43:57 --> Undefined array key "id"
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 66)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:44:45 --> Undefined array key "id"
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 66)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:45:34 --> Undefined array key "id"
+#0 C:\wamp64\www\websetup\app\Views\admin\appointmentpage.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 66)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 00:46:52 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:48:04 --> syntax error, unexpected token ")"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:48:13 --> syntax error, unexpected token ")"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:48:15 --> syntax error, unexpected token ")"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:48:58 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#3 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-04 00:49:47 --> syntax error, unexpected token ":"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 00:51:07 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#3 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-04 00:56:40 --> syntax error, unexpected token "continue", expecting ":"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 01:09:32 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/appointme...', Array, true)
+#3 C:\wamp64\www\websetup\app\Controllers\AdminPageAppointment.php(38): view('admin/appointme...', Array)
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAppointment->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAppointment))
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-04 01:47:06 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\assessmentpage.php(2): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/assessmen...', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageAssessment.php(21): view('admin/assessmen...', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageAssessment->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageAssessment))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 02:16:50 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\riskanalysispage.php(2): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/riskanaly...', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageRiskAnalysis.php(21): view('admin/riskanaly...', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageRiskAnalysis->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageRiskAnalysis))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 02:29:04 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\homepage.php(2): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/homepage', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(25): view('admin/homepage', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHome))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 03:05:39 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\homepage.php(2): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/homepage', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(25): view('admin/homepage', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHome))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 03:38:35 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 84)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:40:50 --> Undefined variable $bussinfo
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 84)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:46:22 --> Undefined variable $bussinfo
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 84)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:46:42 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 84)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:47:22 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\w...', 86)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:49:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\w...', 86)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:51:16 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\w...', 86)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:53:33 --> Cannot use object of type App\Models\BusinessInfosModel as array
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-04 03:55:03 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\w...', 86)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 03:58:53 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\w...', 86)
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-04 04:08:37 --> syntax error, unexpected variable "$parentmenu", expecting "," or ";"
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/headerpag...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(33): view('admin/headerpag...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 04:14:36 --> unlink(C:\wamp64\www\websetup\app\Controllers/
+                                                Enable                                            .php): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\w...', 107)
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(107): unlink('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(133): delete_menu_page('\r\n             ...', '\r\n             ...')
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 05:35:37 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\wamp64\\www\\w...', 195)
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(195): mkdir('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(169): create_sub_page('submenu', 'Submenu', 'testmenu', 'Testmenu', 'Test Menu')
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 06:16:44 --> Undefined array key "menu)id"
+#0 C:\wamp64\www\websetup\app\Views\admin\headerpage.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 99)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/headerpag...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(33): view('admin/headerpag...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 06:17:23 --> Cannot access offset of type string on string
+#0 C:\wamp64\www\websetup\system\View\View.php(210): include()
+#1 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/headerpag...', Array, true)
+#3 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(33): view('admin/headerpag...', Array)
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-04 10:29:00 --> Undefined variable $text_info
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 81)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/homepage', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(25): view('admin/homepage', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHome))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 10:29:44 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/businessp...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageBusiness.php(33): view('admin/businessp...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageBusiness->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageBusiness))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 10:30:53 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/businessp...', Array, true)
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageBusiness.php(33): view('admin/businessp...', Array)
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageBusiness->index()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageBusiness))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-04 10:31:40 --> Undefined array key "welcome_text"
+#0 C:\wamp64\www\websetup\app\Views\admin\businesspage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 80)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/businessp...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageBusiness.php(33): view('admin/businessp...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageBusiness->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageBusiness))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 10:31:43 --> Undefined array key "welcome_text"
+#0 C:\wamp64\www\websetup\app\Views\admin\businesspage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 80)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/businessp...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageBusiness.php(33): view('admin/businessp...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageBusiness->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageBusiness))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 10:34:00 --> Undefined array key "welcome_text"
+#0 C:\wamp64\www\websetup\app\Views\admin\businesspage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 80)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/businessp...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageBusiness.php(33): view('admin/businessp...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageBusiness->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageBusiness))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 10:34:02 --> Undefined array key "welcome_text"
+#0 C:\wamp64\www\websetup\app\Views\admin\businesspage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 80)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/businessp...', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageBusiness.php(33): view('admin/businessp...', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageBusiness->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageBusiness))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 10:35:21 --> Class "App\Models\LogoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-04 10:37:19 --> Undefined variable $text_info
+#0 C:\wamp64\www\websetup\app\Views\admin\homepage.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 81)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/homepage', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageHome.php(25): view('admin/homepage', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHome->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHome))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-04 10:46:28 --> Class "App\Models\LogoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Appointment->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-04 10:46:54 --> Class "App\Models\LogoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Team->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Team))
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-04 10:47:01 --> Class "App\Models\LogoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\Services->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-04 11:15:55 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\teampage.php(2): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/teampage', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageTeam.php(17): view('admin/teampage', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageTeam))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 11:16:46 --> Class "App\Models\LogoModel" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-09-04 11:21:23 --> Column 'data' cannot be null
+CRITICAL - 2023-09-04 11:21:23 --> Column 'data' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\websetup\app\Controllers\AdminPageTeam.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageTeam))
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-09-04 11:24:36 --> Column 'data' cannot be null
+CRITICAL - 2023-09-04 11:24:36 --> Column 'data' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\websetup\app\Controllers\AdminPageTeam.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageTeam))
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-04 11:29:20 --> Undefined array key "data"
+#0 C:\wamp64\www\websetup\app\Views\admin\teampage.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\w...', 52)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/teampage', Array, true)
+#4 C:\wamp64\www\websetup\app\Controllers\AdminPageTeam.php(21): view('admin/teampage', Array)
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageTeam))
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-04 11:30:03 --> Column 'image' cannot be null
+CRITICAL - 2023-09-04 11:30:03 --> Column 'image' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\websetup\app\Controllers\AdminPageTeam.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageTeam->storeTeam()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageTeam))
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-04 11:42:08 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\servicespage.php(2): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/servicesp...', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageServices.php(18): view('admin/servicesp...', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageServices->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageServices))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 12:05:54 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\questionpage.php(1): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/questionp...', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageQuestionnaire.php(21): view('admin/questionp...', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageQuestionnaire->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageQuestionnaire))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-04 12:13:50 --> Undefined variable $business_infos
+#0 C:\wamp64\www\websetup\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\w...', 53)
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\websetup\app\Views\admin\gallerypage.php(1): view('admin/head')
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('admin/gallerypa...', Array, true)
+#8 C:\wamp64\www\websetup\app\Controllers\AdminPageGallery.php(17): view('admin/gallerypa...', Array)
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageGallery->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageGallery))
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

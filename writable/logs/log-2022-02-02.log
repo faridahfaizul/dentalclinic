@@ -1,0 +1,41 @@
+CRITICAL - 2022-02-02 23:39:41 --> Class "CI_Controller" not found
+#0 C:\wamp64\www\demo\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\demo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\demo\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\demo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-02 23:39:59 --> Class "Controller" not found
+#0 C:\wamp64\www\demo\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\demo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\demo\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\demo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-02 23:40:00 --> Class "Controller" not found
+#0 C:\wamp64\www\demo\system\Router\Router.php(518): include_once()
+#1 C:\wamp64\www\demo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 C:\wamp64\www\demo\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 C:\wamp64\www\demo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-02-02 23:40:28 --> Cannot call constructor
+#0 C:\wamp64\www\demo\system\CodeIgniter.php(802): App\Controllers\Forms->__construct()
+#1 C:\wamp64\www\demo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-02 23:40:29 --> Cannot call constructor
+#0 C:\wamp64\www\demo\system\CodeIgniter.php(802): App\Controllers\Forms->__construct()
+#1 C:\wamp64\www\demo\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\demo\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\demo\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}

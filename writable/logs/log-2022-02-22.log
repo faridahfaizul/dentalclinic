@@ -1,0 +1,398 @@
+CRITICAL - 2022-02-22 01:30:44 --> Undefined constant "App\Controllers\APPATH"
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 01:32:27 --> Undefined constant "App\Controllers\APPATH"
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 01:33:44 --> Undefined constant "App\Controllers\APPATH"
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 01:35:36 --> Undefined constant "App\Controllers\APPATH"
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 01:35:47 --> Undefined property: App\Controllers\LogIn::$session
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 01:38:15 --> Undefined property: App\Controllers\LogIn::$session
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 01:41:08 --> Undefined property: App\Controllers\LogIn::$session
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 01:41:10 --> Undefined property: App\Controllers\LogIn::$session
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 01:43:42 --> Class "App\Controllers\Google_Client" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 01:43:55 --> Undefined property: App\Controllers\LogIn::$session
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 01:46:16 --> Undefined variable $data
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 01:46:27 --> CodeIgniter\Session\Session and Psr\Log\LoggerAwareTrait define the same property ($logger) in the composition of CodeIgniter\Session\Session. However, the definition differs and is considered incompatible. Class was composed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-22 01:58:11 --> Class "App\Controllers\Google_Client" not found
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 02:34:40 --> Undefined property: App\Controllers\LogIn::$google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:34:54 --> Undefined property: App\Controllers\LogIn::$google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:36:35 --> Undefined property: App\Controllers\LogIn::$google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:37:36 --> Undefined property: App\Controllers\LogIn::$google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:38:49 --> Undefined property: App\Controllers\LogIn::$google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:39:42 --> Undefined variable $data
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:51:47 --> Undefined variable $google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:52:15 --> Undefined property: App\Controllers\LogIn::$google_client
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 02:55:32 --> Undefined variable $data
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 03:28:45 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 03:29:50 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 03:29:52 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 03:31:58 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 03:36:10 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 03:36:27 --> Undefined variable $data
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 19:57:37 --> Cannot redeclare App\Controllers\LogIn::logout()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-22 19:58:01 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:00:09 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:00:11 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:03:00 --> Undefined property: App\Controllers\LogIn::$googleClient
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 20:03:01 --> Undefined property: App\Controllers\LogIn::$googleClient
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 20:03:03 --> Undefined property: App\Controllers\LogIn::$googleClient
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-22 20:10:09 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:10:10 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:11:19 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:11:21 --> Call to a member function createAuthUrl() on null
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-22 20:38:45 --> Undefined variable $googleButton
+#0 C:\wamp64\www\websetup\app\Views\login.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Controllers\LogIn.php(27): view()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\LogIn->index()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-22 20:45:03 --> require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\LogIn.php(8): require_once()
+#2 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(264): include_once('...')
+#3 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-02-22 20:47:03 --> require_once(libraries/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\LogIn.php(8): require_once()
+#2 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(264): include_once('...')
+#3 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-02-22 20:47:05 --> require_once(libraries/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\wamp64\www\websetup\app\Controllers\LogIn.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\LogIn.php(8): require_once()
+#2 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(264): include_once('...')
+#3 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-02-22 20:48:16 --> Class "App\Controllers\Google_Client" not found
+#0 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#2 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-22 20:48:18 --> Class "App\Controllers\Google_Client" not found
+#0 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#2 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-22 20:48:30 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-22 20:50:47 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-22 20:53:41 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-22 21:32:21 --> Undefined variable $details
+#0 C:\wamp64\www\websetup\app\Views\back-end\admin_view.php(274): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#2 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\wamp64\www\websetup\app\Views\layouts\main_view.php(4): view()
+#5 C:\wamp64\www\websetup\system\View\View.php(210): include('...')
+#6 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render()
+#8 C:\wamp64\www\websetup\app\Controllers\AdminView.php(16): view()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminView->index()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2022-02-22 21:47:42 --> Column 'created_at' cannot be null
+CRITICAL - 2022-02-22 21:47:42 --> Column 'created_at' cannot be null
+#0 C:\wamp64\www\websetup\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\wamp64\www\websetup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\wamp64\www\websetup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\wamp64\www\websetup\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\wamp64\www\websetup\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\websetup\system\BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 C:\wamp64\www\websetup\system\Model.php(625): CodeIgniter\BaseModel->insert()
+#7 C:\wamp64\www\websetup\app\Controllers\AdminView.php(39): CodeIgniter\Model->insert()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminView->store()
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#13 {main}

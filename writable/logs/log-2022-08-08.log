@@ -1,0 +1,51 @@
+CRITICAL - 2022-08-08 03:00:36 --> unlink(C:\wamp64\www\websetup\app\Controllers/Test/Test.php): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\w...', 187, Array)
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(187): unlink('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(127): delete_menu_page('Test', 'test')
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->deleteMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-08 03:07:56 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\wamp64\\www\\w...', 172, Array)
+#1 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(172): mkdir('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(164): create_sub_page('newpage', 'Newpage', 'menuone', 'Menuone', 'New Menu')
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageHeader))
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-08 21:01:41 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('layouts/header', Array, true)
+#2 C:\wamp64\www\websetup\app\Views\home_view.php(3): view('layouts/header')
+#3 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('home_view', Array, true)
+#6 C:\wamp64\www\websetup\app\Controllers\HomePage.php(60): view('home_view', Array)
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-08 21:02:01 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('layouts/header', Array, true)
+#2 C:\wamp64\www\websetup\app\Views\home_view.php(3): view('layouts/header')
+#3 C:\wamp64\www\websetup\system\View\View.php(210): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\websetup\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\wamp64\www\websetup\system\Common.php(1089): CodeIgniter\View\View->render('home_view', Array, true)
+#6 C:\wamp64\www\websetup\app\Controllers\HomePage.php(60): view('home_view', Array)
+#7 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\HomePage->index()
+#8 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#9 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-08 21:07:35 --> syntax error, unexpected 'Try' (T_TRY), expecting identifier (T_STRING)
+#0 C:\wamp64\www\websetup\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('try')
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('try')
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,52 @@
+CRITICAL - 2022-04-21 00:23:20 --> syntax error, unexpected string content ");", expecting ")"
+#0 C:\wamp64\www\websetup\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#2 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2022-04-21 00:33:44 --> Undefined variable $controller_name
+#0 C:\wamp64\www\websetup\app\Helpers\pages_creator_helper.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(156): create_sub_page()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeSubMenu()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-21 00:40:10 --> syntax error, unexpected token "try", expecting identifier
+#0 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-21 00:43:26 --> syntax error, unexpected token "try", expecting identifier
+#0 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 C:\wamp64\www\websetup\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(790): class_exists()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-21 22:18:14 --> ucwords(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(89): ucwords()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-04-21 22:33:23 --> Undefined variable $urlDB
+#0 C:\wamp64\www\websetup\app\Controllers\AdminPageHeader.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\wamp64\www\websetup\system\CodeIgniter.php(825): App\Controllers\AdminPageHeader->storeMenu()
+#2 C:\wamp64\www\websetup\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\wamp64\www\websetup\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\wamp64\www\websetup\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\websetup\system\Commands\Server\rewrite.php(43): require_once('...')
+#6 {main}
