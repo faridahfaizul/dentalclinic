@@ -109,7 +109,7 @@
         <h4 class="text-white font-weight-medium px-3"><?php echo $services['name']; ?></h4>
         <p class="text-white px-3 mb-3"></p>
         <div class="w-100 bg-white text-center p-4" >
-          <a class="btn btn-primary" href="/websetup/public/<?php echo $services['view']; ?>">Read More</a>
+          <a class="btn btn-primary" href="<?php echo base_url();?>/<?php echo $services['view']; ?>">Read More</a>
         </div>
       </div>
     </div>
@@ -119,8 +119,8 @@
   <div class="row justify-content-center mx-0" style="background-color:#7E564E">
     <div class="col-lg-4 py-5">
       <div class="p-4 my-5" style="background: rgba(33, 30, 28, 0.7);">      
-        <a class="btn btn-primary btn-block" href="/websetup/public/appointment" style="height: 47px;">Make an Appointment</a>
-        <a class="btn btn-primary btn-block" href="/websetup/public/pricing" style="height: 47px;">Pricing</a>
+        <a class="btn btn-primary btn-block" href="<?php echo base_url();?>/appointment" style="height: 47px;">Make an Appointment</a>
+        <a class="btn btn-primary btn-block" href="<?php echo base_url();?>/pricing" style="height: 47px;">Pricing</a>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@
               <p class="m-0"><?php echo $team['position'];?></p>
             </div>
             <div class="team-social bg-dark text-center">
-              <a class="btn btn-outline-primary btn-square mr-2" href="/websetup/public/team"><i class="fas fa-angle-double-right"></i></a>
+              <a class="btn btn-outline-primary btn-square mr-2" href="<?php echo base_url();?>/team"><i class="fas fa-angle-double-right"></i></a>
             </div>
           </div>
         </div>

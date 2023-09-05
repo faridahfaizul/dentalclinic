@@ -31,17 +31,17 @@ class LogIn extends Controller
                 $session->set($ses_data);
                 $role = $data['user_role'];
                 if ($role == "Admin") {
-                    return redirect()->to(base_url('/websetup/public/admin'));
+                    return redirect()->to(base_url('/admin'));
                 } else {
-                    return redirect()->to(base_url('/websetup/public/admin'));
+                    return redirect()->to(base_url('/admin'));
                 }
             }else{
                 $session->setFlashdata('msg', 'Wrong Password');
-                return redirect()->to(base_url('/websetup/public/login'));
+                return redirect()->to(base_url('/login'));
             }
         }else{
             $session->setFlashdata('msg', 'Email not Found');
-            return redirect()->to(base_url('/websetup/public/login'));
+            return redirect()->to(base_url('/login'));
         }
     }
   
@@ -75,7 +75,7 @@ class LogIn extends Controller
     {
         $session = session();
         $session->destroy();
-        return redirect()->to(base_url('/websetup/public/login'));
+        return redirect()->to(base_url('/login'));
     }
 
 } 

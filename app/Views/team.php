@@ -7,7 +7,7 @@
   <div class="container text-center py-5">
     <h3 class="text-white display-3 mb-4">Team</h3>
     <div class="d-inline-flex align-items-center text-white">
-      <p class="m-0"><a class="text-white" href="/websetup/public">Home</a></p>
+      <p class="m-0"><a class="text-white" href="<?php echo base_url();?>">Home</a></p>
       <i class="far fa-circle px-3"></i>
       <p class="m-0"><a class="text-white" href="">Team</a></p>
     </div>

@@ -37,6 +37,6 @@ class AdminPageAppointmentInfo extends Controller
  
         $save = $appointmentModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageappointmentinfo') );
+        return redirect()->to( base_url('/adminpageappointmentinfo') );
     }
 }

@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageStaff/storeDoctor');?>" name="add-doctor" id="add-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageStaff/storeDoctor');?>" name="add-doctor" id="add-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -159,7 +159,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageStaff/updateDoctor');?>" name="edit-doctor" id="edit-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageStaff/updateDoctor');?>" name="edit-doctor" id="edit-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -206,7 +206,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageStaff/deleteDoctor');?>" name="delete-doctor" id="delete-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageStaff/deleteDoctor');?>" name="delete-doctor" id="delete-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
             <h4>Details</h4>   
                 <br>                  
@@ -234,7 +234,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageStaff/storeNurse');?>" name="add-nurse" id="add-nurse" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageStaff/storeNurse');?>" name="add-nurse" id="add-nurse" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">     
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -273,7 +273,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageStaff/updateNurse');?>" name="edit-nurse" id="edit-nurse" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageStaff/updateNurse');?>" name="edit-nurse" id="edit-nurse" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -320,7 +320,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageStaff/deleteNurse');?>" name="delete-nurse" id="delete-nurse" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageStaff/deleteNurse');?>" name="delete-nurse" id="delete-nurse" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
             <h4>Details</h4>   
                 <br>                  

@@ -15,7 +15,7 @@
                         <div class="card-header">
                             <strong>Welcome</strong> Image
                         </div>
-                        <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/updateWelcome');?>" name="edit-logo" id="edit-logo" method="post" accept-charset="utf-8" class="form-horizontal">
+                        <form action="<?php echo base_url('/AdminPageBusiness/updateWelcome');?>" name="edit-logo" id="edit-logo" method="post" accept-charset="utf-8" class="form-horizontal">
                             <div class="card-body card-block">
                                 <div class="row form-group">
                                     <div class="col col-md-3">
@@ -69,7 +69,7 @@
                         <div class="card-header">
                             Business<strong> Introduction</strong>
                         </div>
-                        <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/updateText');?>" name="edit-infos" id="edit-infos" method="post" accept-charset="utf-8" class="form-horizontal">                            
+                        <form action="<?php echo base_url('/AdminPageBusiness/updateText');?>" name="edit-infos" id="edit-infos" method="post" accept-charset="utf-8" class="form-horizontal">                            
                             <?php if($text_info):foreach($text_info as $info): ?>
                             <div class="card-body card-block">
                                 <div class="row form-group">
@@ -111,7 +111,7 @@
                         <div class="card-header">
                             Business<strong> Information</strong>
                         </div>
-                        <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/updateInfos');?>" name="edit-infos" id="edit-infos" method="post" accept-charset="utf-8" class="form-horizontal">                            
+                        <form action="<?php echo base_url('/AdminPageBusiness/updateInfos');?>" name="edit-infos" id="edit-infos" method="post" accept-charset="utf-8" class="form-horizontal">                            
                             <?php if($business_infos):foreach($business_infos as $business_infos): ?>
                             <div class="card-body card-block">
                                 <div class="row form-group">
@@ -293,7 +293,7 @@
                         <div class="card-header">
                             <strong>Event Form</strong>
                         </div>
-                        <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/storeCalendar');?>" method="post"  id="add-calendar" class="form-horizontal">
+                        <form action="<?php echo base_url('/AdminPageBusiness/storeCalendar');?>" method="post"  id="add-calendar" class="form-horizontal">
                             <div class="card-body card-block">
                                 <div class="form-group mb-2">
                                     <label for="operation" class=" form-control-label">Operation</label>
@@ -343,7 +343,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -364,7 +364,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/updateCalendar');?>" name="add-calendar" id="add-calendar" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageBusiness/updateCalendar');?>" name="add-calendar" id="add-calendar" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -442,7 +442,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/updateLinks');?>" name="edit-links" id="edit-links" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
+            <form action="<?php echo base_url('/AdminPageBusiness/updateLinks');?>" name="edit-links" id="edit-links" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -541,7 +541,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/storeLinks');?>" name="add-links" id="add-links" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageBusiness/storeLinks');?>" name="add-links" id="add-links" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">          
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -632,7 +632,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageBusiness/deleteLinks');?>" name="delete-links" id="delete-links" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
+            <form action="<?php echo base_url('/AdminPageBusiness/deleteLinks');?>" name="delete-links" id="delete-links" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
             <div class="modal-body"> 
                 <h4>Details</h4>   
                 <br>                  

@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageServices/updateServices');?>" name="edit-services" id="edit-services" method="post" accept-charset="utf-8" class="form-horizontal">
+            <form action="<?php echo base_url('/AdminPageServices/updateServices');?>" name="edit-services" id="edit-services" method="post" accept-charset="utf-8" class="form-horizontal">
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -172,7 +172,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageServices/storeServices');?>" name="add-services" id="add-services" method="post" accept-charset="utf-8" class="form-horizontal">
+            <form action="<?php echo base_url('/AdminPageServices/storeServices');?>" name="add-services" id="add-services" method="post" accept-charset="utf-8" class="form-horizontal">
             <div class="modal-body">         
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -236,7 +236,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageServices/deleteServices');?>" name="delete-services" id="delete-services" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
+            <form action="<?php echo base_url('/AdminPageServices/deleteServices');?>" name="delete-services" id="delete-services" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
             <div class="modal-body">    
                 <h4>Details</h4>   
                 <br>                

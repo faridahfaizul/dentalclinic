@@ -13,7 +13,7 @@
                         <div class="card-header">
                             <strong>Details</strong>                                 
                         </div>
-                        <form action="<?php echo base_url('/websetup/public/AdminPageQuestionnaire/updateTerms');?>" name="edit-terms" id="edit-terms" method="post" accept-charset="utf-8" class="form-horizontal">
+                        <form action="<?php echo base_url('/AdminPageQuestionnaire/updateTerms');?>" name="edit-terms" id="edit-terms" method="post" accept-charset="utf-8" class="form-horizontal">
                             <div class="card-body card-block">
                             <?php if($terms):foreach($terms as $terms): ?>                                
                                 <div class="row form-group">
@@ -101,7 +101,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
 <div id="add_dynamic_field_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-        <form action="<?php echo base_url('/websetup/public/AdminPageQuestionnaire/storeQuestion');?>" name="add-question" id="add-question" method="post" accept-charset="utf-8" class="form-horizontal">           
+        <form action="<?php echo base_url('/AdminPageQuestionnaire/storeQuestion');?>" name="add-question" id="add-question" method="post" accept-charset="utf-8" class="form-horizontal">           
             <div class="modal-header">
                 <h5 class="modal-title" id="addModalLabel">Add Question</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -156,7 +156,7 @@
 <div id="edit_dynamic_field_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-        <form action="<?php echo base_url('/websetup/public/AdminPageQuestionnaire/updateQuestion');?>" name="edit-question" id="edit-question" method="post" accept-charset="utf-8" class="form-horizontal">           
+        <form action="<?php echo base_url('/AdminPageQuestionnaire/updateQuestion');?>" name="edit-question" id="edit-question" method="post" accept-charset="utf-8" class="form-horizontal">           
             <div class="modal-header">
                 <h5 class="modal-title" id="editModalLabel">Edit Question</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -210,7 +210,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageQuestionnaire/deleteQuestion');?>" name="delete-question" id="delete-question" method="post" accept-charset="utf-8" class="form-horizontal">
+            <form action="<?php echo base_url('/AdminPageQuestionnaire/deleteQuestion');?>" name="delete-question" id="delete-question" method="post" accept-charset="utf-8" class="form-horizontal">
             <div class="modal-body">    
                 <h4>Details</h4>   
                 <br>                

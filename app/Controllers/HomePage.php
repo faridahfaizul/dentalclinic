@@ -73,7 +73,7 @@
             ];
  
         $save = $subscribe->insert($data);
-        return redirect()->to(base_url('/websetup/public/'));
+        return redirect()->to(base_url());
     }
   }
 ?>

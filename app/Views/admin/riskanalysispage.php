@@ -11,7 +11,7 @@
                     <div class="overview-wrap">
                         <h2 class="title-1">Risk Analysis
                         <span><small>
-                            <a href="/websetup/public/adminpageassessment" target="_blank" data-toggle="tooltip" data-placement="top" title="View All Result">
+                            <a href="<?php echo base_url();?>/adminpageassessment" target="_blank" data-toggle="tooltip" data-placement="top" title="View All Result">
                                 <i class="fas fa-info"></i>
                             </a>
                         </small></span>  
@@ -143,7 +143,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageRiskAnalysis/updateRiskLevel');?>" name="edit-result" id="edit-result" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
+            <form action="<?php echo base_url('/AdminPageRiskAnalysis/updateRiskLevel');?>" name="edit-result" id="edit-result" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">

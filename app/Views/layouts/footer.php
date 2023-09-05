@@ -49,7 +49,7 @@
         <p>   
         <h5 class="text-white text-uppercase mb-4">Newsletter</h5> 
         <div class="w-100">          
-          <form action="<?php echo base_url('/websetup/public/HomePage/storeSubscribe');?>" method="post">
+          <form action="<?php echo base_url('/HomePage/storeSubscribe');?>" method="post">
             <input type="text" id="name" name="name" class="form-control border-light" style="padding: 30px;" placeholder="Your Name" required>
             <br>
             <input  type="email" id="email" name="email" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address" required>           
@@ -67,7 +67,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-        <p class="m-0 text-white">&copy; <a href="/websetup/public/">DentalClinic </a>by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All Rights Reserved.</p>
+        <p class="m-0 text-white">&copy; <a href="<?php echo base_url();?>">DentalClinic </a>by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All Rights Reserved.</p>
       </div>
       <div class="col-md-6 text-center text-md-right">
         <p class="m-0 text-white">Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>

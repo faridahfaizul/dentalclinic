@@ -37,7 +37,7 @@ class AdminPageGallery extends Controller
             ];
         $save = $galleryModel->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpagegallery'));
+        return redirect()->to(base_url('/adminpagegallery'));
     }
 
     public function updateGallery()
@@ -58,7 +58,7 @@ class AdminPageGallery extends Controller
  
         $save = $galleryModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagegallery') );
+        return redirect()->to( base_url('/adminpagegallery') );
     }
 
     public function deleteGallery($id = null)
@@ -71,7 +71,7 @@ class AdminPageGallery extends Controller
         
         $data['gallery'] = $galleryModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpagegallery') );
+     return redirect()->to( base_url('/adminpagegallery') );
 
     }
 }

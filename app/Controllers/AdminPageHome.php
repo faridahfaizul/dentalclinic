@@ -42,7 +42,7 @@ class AdminPageHome extends Controller
 
         $save = $sliderModel->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpagehome'));
+        return redirect()->to(base_url('/adminpagehome'));
     }
 
     public function updateSlider()
@@ -64,7 +64,7 @@ class AdminPageHome extends Controller
  
         $save = $sliderModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagehome') );
+        return redirect()->to( base_url('/adminpagehome') );
     }
 
     public function deleteSlider($id = null)
@@ -77,7 +77,7 @@ class AdminPageHome extends Controller
         
         $data['slider'] = $sliderModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpagehome') );
+     return redirect()->to( base_url('/adminpagehome') );
     }
     
 }

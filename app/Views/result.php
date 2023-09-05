@@ -7,7 +7,7 @@
   <div class="container text-center py-5">
     <h3 class="text-white display-3 mb-4">Result</h3>
     <div class="d-inline-flex align-items-center text-white">
-      <p class="m-0"><a class="text-white" href="/websetup/public">Home</a></p>
+      <p class="m-0"><a class="text-white" href="<?php echo base_url();?>">Home</a></p>
       <i class="far fa-circle px-3"></i>
       <p class="m-0"><a class="text-white" href="">Result</a></p>
     </div>
@@ -35,12 +35,12 @@
             
             <?php if($score >= $highscore): ?>
               <center><p><b><a style="color:red;"><?php echo $deshigh;?>!<br>You must have a checkup.<br>Please book your appointment now.</a></b></p></center>
-              <center><a class="btn btn-outline-score py-3 px-4 mt-3" href="/websetup/public/appointment">Book an Appointment</a></center>
+              <center><a class="btn btn-outline-score py-3 px-4 mt-3" href="<?php echo base_url();?>/appointment">Book an Appointment</a></center>
             <?php elseif($score <= $lowscore): ?>
               <center><p><b><a style="color:green;"><?php echo $deslow;?>!</a></b></p></center>
             <?php elseif($score > $lowscore && $score < $highscore): ?>
               <center><p><b><a style="color:orange;"><?php echo $desmid;?>!</b><br>You can have a checkup.<br>Please book your appointment.</a></p></center>
-              <center><a class="btn btn-outline-score py-3 px-4 mt-3" href="/websetup/public/appointment">Book an Appointment</a></center>
+              <center><a class="btn btn-outline-score py-3 px-4 mt-3" href="<?php echo base_url();?>/appointment">Book an Appointment</a></center>
             <?php endif;?>            
           </fieldset>
       </div>

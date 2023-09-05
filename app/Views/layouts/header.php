@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="DentalClinic.svg" type="image/x-icon">
-    <!-- <title>Random - Websetup</title> -->
+    <!-- <title>DentalClinic</title> -->
 
     <meta name="description" content="The MDN Web Docs site">
     <meta name="author" content="Chris Mills">    
@@ -54,11 +54,11 @@
             </div>
             <div class="col-lg-6 text-right">
                 <div class="d-inline-flex align-items-center">
-                    <a class="text-primary px-2" href="/websetup/public/admin">Admin</a>
+                    <a class="text-primary px-2" href="<?php echo base_url();?>/admin">Admin</a>
                     <small class="px-3">|</small>
-                    <a class="text-primary px-2" href="/websetup/public/appointment">Appointment</a>
+                    <a class="text-primary px-2" href="<?php echo base_url();?>/appointment">Appointment</a>
                     <small class="px-3">|</small>
-                    <a class="text-primary px-2" href="/websetup/public/login">Login</a>
+                    <a class="text-primary px-2" href="<?php echo base_url();?>/login">Login</a>
                 </div>
             </div>
         </div>
@@ -80,31 +80,25 @@
             <!-- Menu Start -->
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0" id="nav">
-                    <a href="/websetup/public/" class="nav-item nav-link">Home</a>
-                    <a href="/websetup/public/team" class="nav-item nav-link">Team</a>
+                    <a href="<?php echo base_url();?>" class="nav-item nav-link">Home</a>
+                    <a href="<?php echo base_url();?>/team" class="nav-item nav-link">Team</a>
                     <div class="nav-item dropdown">
                         <a href="" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                        <a href="/websetup/public/services" class="dropdown-item">All</a>
+                        <a href="<?php echo base_url();?>/services" class="dropdown-item">All</a>
                         <?php if($services):foreach($services as $servis): if( $servis['status'] == "show"): ?>  
-                            <a href="/websetup/public/<?php echo $servis['view'];?>" class="dropdown-item"><?php echo $servis['name'];?></a>
+                            <a href="<?php echo base_url();?>/<?php echo $servis['view'];?>" class="dropdown-item"><?php echo $servis['name'];?></a>
                         <?php endif; endforeach; endif; ?>
                         </div>
                     </div>
-                    <a href="/websetup/public/pricing" class="nav-item nav-link">Pricing</a>
-                    <a href="/websetup/public/assessment" class="nav-item nav-link">Assessment</a>
-                    <a href="/websetup/public/gallery" class="nav-item nav-link">Gallery</a>                  
+                    <a href="<?php echo base_url();?>/pricing" class="nav-item nav-link">Pricing</a>
+                    <a href="<?php echo base_url();?>/assessment" class="nav-item nav-link">Assessment</a>
+                    <a href="<?php echo base_url();?>/gallery" class="nav-item nav-link">Gallery</a>                  
                     <!-- Dynamic Menu Start -->
                     <?php if($menu):foreach($menu as $menu): if($menu['status'] == 'Enable'):?> 
-                        <a href="<?php echo base_url($menu['url']);?>" class="nav-item nav-link"><?php echo $menu['name'];?></a>
+                        <a href="<?php echo $menu['url'];?>" class="nav-item nav-link"><?php echo $menu['name'];?></a>
                     <?php endif; endforeach; endif; ?>
-                    <div class="nav-item dropdown">
-                        <div class="dropdown-menu rounded-0 m-0">
-                        <?php foreach($submenu as $sub): if($sub['status'] == 'Enable'):?>
-                            <a href="<?php echo base_url($sub['url']);?>" class="dropdown-item"><?php echo $sub['name'];?></a>
-                            <?php endif; endforeach; ?>
-                        </div>
-                    </div>
+
                     <!-- Dynamic Menu End -->
                 </div>
             </div>

@@ -39,7 +39,7 @@ class AdminPageTeam extends Controller
 
         $save = $teamModal->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpageteam'));
+        return redirect()->to(base_url('/adminpageteam'));
     }
 
     public function updateTeam()
@@ -61,7 +61,7 @@ class AdminPageTeam extends Controller
  
         $save = $teamModal->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageteam') );
+        return redirect()->to( base_url('/adminpageteam') );
     }
 
     public function deleteTeam($id = null)
@@ -74,7 +74,7 @@ class AdminPageTeam extends Controller
         
         $data['team'] = $teamModal->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpageteam') );
+     return redirect()->to( base_url('/adminpageteam') );
     }
     
 }

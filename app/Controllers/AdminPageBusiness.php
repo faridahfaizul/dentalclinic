@@ -45,7 +45,7 @@ class AdminPageBusiness extends Controller
  
         $save = $welcomepic->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagebusiness') );
+        return redirect()->to( base_url('/adminpagebusiness') );
     }
 
     public function updateText()
@@ -65,7 +65,7 @@ class AdminPageBusiness extends Controller
  
         $save = $info->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagebusiness') );
+        return redirect()->to( base_url('/adminpagebusiness') );
     }
     
     public function updateInfos()
@@ -94,7 +94,7 @@ class AdminPageBusiness extends Controller
  
         $save = $infos->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagebusiness') );
+        return redirect()->to( base_url('/adminpagebusiness') );
     }  
 
     public function storeLinks()
@@ -113,7 +113,7 @@ class AdminPageBusiness extends Controller
  
         $save = $links->insert($data);
  
-        return redirect()->to(base_url('/websetup/public/adminpagebusiness'));
+        return redirect()->to(base_url('/adminpagebusiness'));
     }
 
     public function updateLinks()
@@ -134,7 +134,7 @@ class AdminPageBusiness extends Controller
  
         $save = $links->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagebusiness') );
+        return redirect()->to( base_url('/adminpagebusiness') );
     }
 
     public function deleteLinks($id = null)
@@ -147,7 +147,7 @@ class AdminPageBusiness extends Controller
         
         $data['link'] = $links->where('id', $id)->delete();
       
-        return redirect()->to( base_url('/websetup/public/adminpagebusiness') );
+        return redirect()->to( base_url('/adminpagebusiness') );
      
     }
     
@@ -167,7 +167,7 @@ class AdminPageBusiness extends Controller
  
         $save = $calendar->insert($data);
  
-        return redirect()->to(base_url('/websetup/public/adminpagebusiness'));
+        return redirect()->to(base_url('/adminpagebusiness'));
     }
 
     public function updateCalendar()
@@ -187,6 +187,6 @@ class AdminPageBusiness extends Controller
  
         $save = $calendar->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagebusiness') );
+        return redirect()->to( base_url('/adminpagebusiness') );
     }
 }

@@ -51,7 +51,7 @@
             <div class="col-lg-6 pt-5 pb-lg-5">
                 <div class="position-relative w-25" style="float:right">
                     <div class="hours-text bg-light p-4 p-lg-5 my-lg-5"> 
-                        <a href="/websetup/public" class="navbar-brand ml-lg-3" data-toggle="tooltip" data-placement="top" title="Back to Home"><i class="fas fa-home"></i></a>
+                        <a href="<?php echo base_url();?>" class="navbar-brand ml-lg-3" data-toggle="tooltip" data-placement="top" title="Back to Home"><i class="fas fa-home"></i></a>
                     </div>
                 </div>                    
             </div>           
@@ -62,7 +62,7 @@
                         <?php if(isset($validation)):?>
                             <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
                         <?php endif;?>                
-                        <form action="/websetup/public/register/save" method="post" class="login100-form validate-form">
+                        <form action="<?php echo base_url();?>/register/save" method="post" class="login100-form validate-form">
                             <div>
                                 <span>Name</span>
                                 <input type="text" id="InputForName" name="name" class="form-control" placeholder="Enter name" value="<?= set_value('name') ?>" required>

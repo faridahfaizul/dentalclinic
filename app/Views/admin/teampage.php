@@ -72,7 +72,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageTeam/updateTeam');?>" name="edit-team" id="edit-team" method="post" accept-charset="utf-8" class="form-horizontal">
+            <form action="<?php echo base_url('/AdminPageTeam/updateTeam');?>" name="edit-team" id="edit-team" method="post" accept-charset="utf-8" class="form-horizontal">
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -163,7 +163,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageTeam/storeTeam');?>" name="add-team" id="add-team" method="post" accept-charset="utf-8" class="form-horizontal">
+            <form action="<?php echo base_url('/AdminPageTeam/storeTeam');?>" name="add-team" id="add-team" method="post" accept-charset="utf-8" class="form-horizontal">
             <div class="modal-body">         
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -225,7 +225,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageTeam/deleteTeam');?>" name="delete-team" id="delete-team" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
+            <form action="<?php echo base_url('/AdminPageTeam/deleteTeam');?>" name="delete-team" id="delete-team" method="post" accept-charset="utf-8" class="form-horizontal" enctype="multipart/form-data">
             <div class="modal-body">    
                 <h4>Details</h4>   
                 <br>                

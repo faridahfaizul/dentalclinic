@@ -40,7 +40,7 @@ class AdminPageRiskAnalysis extends Controller
  
         $save = $resultlevelModel->update($id,$data);
  
-        return redirect()->to(base_url('/websetup/public/adminpageriskanalysis'));
+        return redirect()->to(base_url('/adminpageriskanalysis'));
     }
 
 }

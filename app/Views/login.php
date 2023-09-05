@@ -52,7 +52,7 @@
             <div class="col-lg-6 pt-5 pb-lg-5">
                 <div class="position-relative w-25" style="float:right">
                     <div class="hours-text bg-light p-4 p-lg-5 my-lg-5"> 
-                        <a href="/websetup/public" class="navbar-brand ml-lg-3" data-toggle="tooltip" data-placement="top" title="Back to Home"><i class="fas fa-home"></i></a>
+                        <a href="<?php echo base_url();?>" class="navbar-brand ml-lg-3" data-toggle="tooltip" data-placement="top" title="Back to Home"><i class="fas fa-home"></i></a>
                     </div>
                 </div>                    
             </div>
@@ -64,7 +64,7 @@
                             <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                         <?php endif;?>
 
-                        <form action="/websetup/public/login/auth" method="post">
+                        <form action="<?php echo base_url();?>/login/auth" method="post">
                             <div>
                                 <span>Email</span>
                                 <input type="email" id="InputForEmail" name="email" class="form-control" placeholder="Enter email" value="<?= set_value('email') ?>">
@@ -75,12 +75,12 @@
                                 <input type="password" id="InputForPassword" name="password" class="form-control" placeholder="Enter Password">                                
                             </div>
                             <div style="float: right;">
-                                <a href="/websetup/public/register" target="_blank" style="font-size:15px;">Register new account</a>
+                                <a href="<?php echo base_url();?>/register" target="_blank" style="font-size:15px;">Register new account</a>
                             </div>
                             <br>
                             <div>
                                 <button class="btn btn-primary px-4" type="submit" value="submit">Login</button>
-                                <p><a href="/websetup/public/forgot_password" style="font-size:13px;">Forgot Password?</a></p>                                
+                                <p><a href="<?php echo base_url();?>/forgot_password" style="font-size:13px;">Forgot Password?</a></p>                                
                             </div>                            
                             <!-- Separation Line -->
                             <div style="width:100%; position:relative; margin-top: 10px; border-bottom:1px solid #F9A392"></div>

@@ -1,2 +1,0 @@
-# websetup
-Faridah UI development

@@ -32,7 +32,7 @@ doc.save('sample-document.pdf');
   <div class="container text-center py-5">
     <h3 class="text-white display-3 mb-4">Assessment</h3>
     <div class="d-inline-flex align-items-center text-white">
-      <p class="m-0"><a class="text-white" href="/websetup/public">Home</a></p>
+      <p class="m-0"><a class="text-white" href="<?php echo base_url();?>">Home</a></p>
       <i class="far fa-circle px-3"></i>
       <p class="m-0"><a class="text-white" href="">Assessment</a></p>
     </div>
@@ -44,7 +44,7 @@ doc.save('sample-document.pdf');
 <div id="capture" class="wrapper row3">
     <main class="hoc container clear"> 
       <div class="content divborder"> 
-        <form id="msform" name="msform" action="/websetup/public/assessment/storeAssessment" method="post">
+        <form id="msform" name="msform" action="<?php echo base_url();?>/assessment/storeAssessment" method="post">
           <!-- progressbar -->
             <ul id="progressbar">
               <li class="active" id="intro"><strong>Introduction</strong></li>

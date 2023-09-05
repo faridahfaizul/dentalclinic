@@ -53,7 +53,7 @@ class AdminPageHeader extends Controller
  
         $save = $background->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageheader') );
+        return redirect()->to( base_url('/adminpageheader') );
     }
     
     public function updateLogo()
@@ -72,7 +72,7 @@ class AdminPageHeader extends Controller
  
         $save = $logo->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageheader') );
+        return redirect()->to( base_url('/adminpageheader') );
     }
 
     public function storeMenu()
@@ -81,7 +81,7 @@ class AdminPageHeader extends Controller
 
         $menu = new MenuModel();
         $urlstore = $this->request->getVar('url_name');
-        $urlDb = 'http://localhost/websetup/public/'.$urlstore;
+        $urlDb = base_url().'/'.$urlstore;
         $title = $this->request->getVar('name');
 
         $data = [
@@ -99,7 +99,7 @@ class AdminPageHeader extends Controller
 
             $save = $menu->insert($data);
             
-        return redirect()->to(base_url('/websetup/public/adminpageheader'));
+        return redirect()->to(base_url('/adminpageheader'));
     }
 
     public function updateMenu()
@@ -115,7 +115,7 @@ class AdminPageHeader extends Controller
  
         $save = $menu->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageheader') );
+        return redirect()->to( base_url('/adminpageheader') );
     }
 
     public function deleteMenu($id = null)
@@ -133,6 +133,6 @@ class AdminPageHeader extends Controller
         
         $data['menu'] = $menu->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpageheader') );
+     return redirect()->to( base_url('/adminpageheader') );
     }
 }

@@ -47,7 +47,7 @@ class AdminPageServices extends Controller
 
         $save = $servicesModal->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpageservices'));
+        return redirect()->to(base_url('/adminpageservices'));
     }
 
     public function updateServices()
@@ -68,7 +68,7 @@ class AdminPageServices extends Controller
  
         $save = $servicesModal->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageservices') );
+        return redirect()->to( base_url('/adminpageservices') );
     }
 
     public function deleteServices($id = null)
@@ -86,7 +86,7 @@ class AdminPageServices extends Controller
         
         $data['services'] = $servicesModal->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpageservices') );
+     return redirect()->to( base_url('/adminpageservices') );
     }
     
 }

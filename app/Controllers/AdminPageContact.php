@@ -2,6 +2,7 @@
   
 use CodeIgniter\Controller;
 use App\Models\LocationModel;
+use App\Models\BusinessInfosModel;
   
 class AdminPageContact extends Controller
 {
@@ -13,6 +14,9 @@ class AdminPageContact extends Controller
 
         $location = new LocationModel();
         $data['contact'] = $location->findAll();
+        
+        $bussinfo = new BusinessInfosModel();
+        $data['business_infos'] = $bussinfo->findAll();
 
         echo view('admin/contactpage', $data);
     }
@@ -37,7 +41,7 @@ class AdminPageContact extends Controller
  
         $save = $location->insert($data);
  
-        return redirect()->to(base_url('adminpagecontact'));
+        return redirect()->to(base_url('/adminpagecontact'));
     }
     
     public function updateContact()
@@ -62,7 +66,7 @@ class AdminPageContact extends Controller
  
         $save = $location->update($id,$data);
  
-        return redirect()->to( base_url('adminpagecontact') );
+        return redirect()->to( base_url('/adminpagecontact') );
     }
 
     public function deleteContact($id = null)
@@ -75,6 +79,6 @@ class AdminPageContact extends Controller
         
         $data['location'] = $location->where('id', $id)->delete();
       
-     return redirect()->to( base_url('adminpagecontact') );
+     return redirect()->to( base_url('/adminpagecontact') );
     }
 }

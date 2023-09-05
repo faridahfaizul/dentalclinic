@@ -35,7 +35,7 @@ class AdminPageAssessment extends Controller
         
         $data['assessment'] = $assessmentModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpageassessment') );
+     return redirect()->to( base_url('/adminpageassessment') );
     }
 
 }

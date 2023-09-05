@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© <a href="/websetup/public/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
+                        <p>© <a href="<?php echo base_url();?>/admin">DentalClinic</a> by <a href= "https://sites.google.com/view/faridahfaizul/home">FaridahFaizul</a>. All rights reserved.</p>
                         <p>Designed by <a href="https://htmlcodex.com"> <i class="fa fa-fire"></i></a></p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageGallery/storeGallery');?>" name="add-gallery" id="add-gallery" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageGallery/storeGallery');?>" name="add-gallery" id="add-gallery" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -134,7 +134,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageGallery/updateGallery');?>" name="edit-doctor" id="edit-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageGallery/updateGallery');?>" name="edit-doctor" id="edit-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -188,7 +188,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?php echo base_url('/websetup/public/AdminPageGallery/deleteGallery');?>" name="delete-doctor" id="delete-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
+            <form action="<?php echo base_url('/AdminPageGallery/deleteGallery');?>" name="delete-doctor" id="delete-doctor" method="post" accept-charset="utf-8" class="form-horizontal" >
             <div class="modal-body">    
             <h4>Details</h4>               
             <br>  

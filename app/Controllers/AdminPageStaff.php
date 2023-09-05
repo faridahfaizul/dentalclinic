@@ -38,7 +38,7 @@ class AdminPageStaff extends Controller
             ];
         $save = $doctorModel->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpagestaff'));
+        return redirect()->to(base_url('/adminpagestaff'));
     }
 
     public function updateDoctor()
@@ -58,7 +58,7 @@ class AdminPageStaff extends Controller
  
         $save = $doctorModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagestaff') );
+        return redirect()->to( base_url('/adminpagestaff') );
     }
 
     public function deleteDoctor($id = null)
@@ -71,7 +71,7 @@ class AdminPageStaff extends Controller
         
         $data['doctor'] = $doctorModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpagestaff') );
+     return redirect()->to( base_url('/adminpagestaff') );
 
     }
     
@@ -89,7 +89,7 @@ class AdminPageStaff extends Controller
             ];
         $save = $nurseModel->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpagestaff'));
+        return redirect()->to(base_url('/adminpagestaff'));
     }
 
     public function updateNurse()
@@ -109,7 +109,7 @@ class AdminPageStaff extends Controller
  
         $save = $nurseModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagestaff') );
+        return redirect()->to( base_url('/adminpagestaff') );
     }
 
     public function deleteNurse($id = null)
@@ -122,7 +122,7 @@ class AdminPageStaff extends Controller
         
         $data['nurse'] = $nurseModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpagestaff') );
+     return redirect()->to( base_url('/adminpagestaff') );
     
     }    
 }

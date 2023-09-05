@@ -42,7 +42,7 @@ class AdminPageQuestionnaire extends Controller
  
         $save = $termModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagequestionnaire') );
+        return redirect()->to( base_url('/adminpagequestionnaire') );
     }
 
     public function storeQuestion()
@@ -63,7 +63,7 @@ class AdminPageQuestionnaire extends Controller
 
         $save = $questionModel->insert($data); 
 
-        return redirect()->to(base_url('/websetup/public/adminpagequestionnaire'));
+        return redirect()->to(base_url('/adminpagequestionnaire'));
     }
 
     public function updateQuestion()
@@ -86,7 +86,7 @@ class AdminPageQuestionnaire extends Controller
  
         $save = $questionModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpagequestionnaire') );
+        return redirect()->to( base_url('/adminpagequestionnaire') );
     }
 
     public function deleteQuestion($id = null)
@@ -99,6 +99,6 @@ class AdminPageQuestionnaire extends Controller
         
         $data['question'] = $questionModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpagequestionnaire') );
+     return redirect()->to( base_url('/adminpagequestionnaire') );
     }
 }

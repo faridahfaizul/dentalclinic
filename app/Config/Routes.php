@@ -58,4 +58,3 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
 
-$routes->get('/submenu', 'Testmenu/Submenu/Submenu::index');

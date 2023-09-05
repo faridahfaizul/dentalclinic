@@ -1,0 +1,22 @@
+CRITICAL - 2023-09-05 05:50:47 --> Undefined variable $business_infos
+#0 C:\wamp64\www\dentalclinic\app\Views\admin\head.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 53)
+#1 C:\wamp64\www\dentalclinic\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\dentalclinic\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\dentalclinic\system\Common.php(1089): CodeIgniter\View\View->render('admin/head', Array, true)
+#4 C:\wamp64\www\dentalclinic\app\Views\admin\contactpage.php(2): view('admin/head')
+#5 C:\wamp64\www\dentalclinic\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\dentalclinic\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\dentalclinic\system\Common.php(1089): CodeIgniter\View\View->render('admin/contactpa...', Array, true)
+#8 C:\wamp64\www\dentalclinic\app\Controllers\AdminPageContact.php(17): view('admin/contactpa...', Array)
+#9 C:\wamp64\www\dentalclinic\system\CodeIgniter.php(825): App\Controllers\AdminPageContact->index()
+#10 C:\wamp64\www\dentalclinic\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPageContact))
+#11 C:\wamp64\www\dentalclinic\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\dentalclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-05 06:37:54 --> syntax error, unexpected token "new", expecting identifier
+#0 C:\wamp64\www\dentalclinic\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('new')
+#1 C:\wamp64\www\dentalclinic\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('new')
+#2 C:\wamp64\www\dentalclinic\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\dentalclinic\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\dentalclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

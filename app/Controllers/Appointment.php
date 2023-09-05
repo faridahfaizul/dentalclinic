@@ -86,7 +86,7 @@
         $session = session();
         $session->destroy();
 
-        return redirect()->to( base_url('/websetup/public/appointment') );     
+        return redirect()->to( base_url('/appointment') );     
     }  
   }
 ?>

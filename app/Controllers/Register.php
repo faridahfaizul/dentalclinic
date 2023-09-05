@@ -34,7 +34,7 @@
         ];
         
         $model->save($data);
-        return redirect()->to(base_url('/websetup/public/login'));
+        return redirect()->to(base_url('/login'));
         
       } else {
         $data['validation'] = $this->validator;

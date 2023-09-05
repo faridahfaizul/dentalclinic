@@ -61,7 +61,7 @@ class AdminPageAppointment extends Controller
 
         $save = $appointmentModel->insert($data);
 
-        return redirect()->to(base_url('/websetup/public/adminpageappointment'));
+        return redirect()->to(base_url('/adminpageappointment'));
     }
 
     public function updateApp()
@@ -89,7 +89,7 @@ class AdminPageAppointment extends Controller
  
         $save = $appointmentModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageappointment') );
+        return redirect()->to( base_url('/adminpageappointment') );
     }
 
     public function completeApp()
@@ -107,7 +107,7 @@ class AdminPageAppointment extends Controller
  
         $save = $appointmentModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageappointment') );
+        return redirect()->to( base_url('/adminpageappointment') );
     }
 
     public function cancelApp()
@@ -125,7 +125,7 @@ class AdminPageAppointment extends Controller
  
         $save = $appointmentModel->update($id,$data);
  
-        return redirect()->to( base_url('/websetup/public/adminpageappointment') );
+        return redirect()->to( base_url('/adminpageappointment') );
     }
 
     public function deleteApp($id = null)
@@ -138,6 +138,6 @@ class AdminPageAppointment extends Controller
         
         $data['appointment'] = $appointmentModel->where('id', $id)->delete();
       
-     return redirect()->to( base_url('/websetup/public/adminpageappointment') );
+     return redirect()->to( base_url('/adminpageappointment') );
     }
 }

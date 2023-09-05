@@ -7,7 +7,7 @@
   <div class="container text-center py-5">
     <h3 class="text-white display-3 mb-4">Services</h3>
     <div class="d-inline-flex align-items-center text-white">
-      <p class="m-0"><a class="text-white" href="/websetup/public">Home</a></p>
+      <p class="m-0"><a class="text-white" href="<?php echo base_url();?>">Home</a></p>
       <i class="far fa-circle px-3"></i>
       <p class="m-0"><a class="text-white" href="">Services</a></p>
     </div>
@@ -29,7 +29,7 @@
               <p class="m-0"></p>
             </div>
             <div class="team-social bg-dark text-center">
-              <a class="btn btn-outline-primary btn-square mr-2" href="/websetup/public/<?php echo $services['view'];?>"><i class="fas fa-angle-double-right"></i></a>
+              <a class="btn btn-outline-primary btn-square mr-2" href="<?php echo base_url();?>/<?php echo $services['view'];?>"><i class="fas fa-angle-double-right"></i></a>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
 <div class="row justify-content-center mx-0">
   <div class="col-lg-6 py-5">
     <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">      
-      <a class="btn btn-primary btn-block" href="/websetup/public/appointment" style="height: 47px;">Make an Appointment</a>
+      <a class="btn btn-primary btn-block" href="<?php echo base_url();?>/appointment" style="height: 47px;">Make an Appointment</a>
     </div>
   </div>
 </div>

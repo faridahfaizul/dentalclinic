@@ -88,7 +88,7 @@
       ];
       
       $session->set($ses_data);
-      return redirect()->to(base_url('/websetup/public/result'));
+      return redirect()->to(base_url('/result'));
     }
   }
 ?>

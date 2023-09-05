@@ -66,29 +66,29 @@
         <div class="container-fluid">
             <ul class="navbar-mobile__list list-unstyled">   
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpagebusiness"><i class="fas fa-info"></i>Business Info</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpagebusiness"><i class="fas fa-info"></i>Business Info</a>
                 </li>                             
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpagestaff"><i class="fas fa-user"></i>Staff</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpagestaff"><i class="fas fa-user"></i>Staff</a>
                 </li>            
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpageappointment"><i class="fas fa-book"></i>Appointments</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpageappointment"><i class="fas fa-book"></i>Appointments</a>
                 </li>               
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpageassessment"><i class="fas fa-clipboard"></i>Assessment</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpageassessment"><i class="fas fa-clipboard"></i>Assessment</a>
                 </li>
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpageriskanalysis"><i class="fas fa-tachometer-alt"></i>Risk Analysis</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpageriskanalysis"><i class="fas fa-tachometer-alt"></i>Risk Analysis</a>
                 </li>               
                 <li class="has-sub"><a class="js-arrow" href="#"><i class="fas fa-copy"></i></i>Page Contents</a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">                                     
-                        <li><a href="/websetup/public/adminpageheader">Menu Bar</a></li>   
-                        <li><a href="/websetup/public/adminpagehome">Home</a></li>
-                        <li><a href="/websetup/public/adminpageteam">Team</a></li>
-                        <li><a href="/websetup/public/adminpageservices">Services</a></li>                 
-                        <li><a href="/websetup/public/adminpagequestionnaire">Questionnaire</a></li>      
-                        <li><a href="/websetup/public/adminpagegallery">Gallery</a></li>      
-                        <li><a href="/websetup/public/adminpageappointmentinfo">Appointment Page</a></li>  
+                        <li><a href="<?php echo base_url();?>/adminpageheader">Menu Bar</a></li>   
+                        <li><a href="<?php echo base_url();?>/adminpagehome">Home</a></li>
+                        <li><a href="<?php echo base_url();?>/adminpageteam">Team</a></li>
+                        <li><a href="<?php echo base_url();?>/adminpageservices">Services</a></li>                 
+                        <li><a href="<?php echo base_url();?>/adminpagequestionnaire">Questionnaire</a></li>      
+                        <li><a href="<?php echo base_url();?>/adminpagegallery">Gallery</a></li>      
+                        <li><a href="<?php echo base_url();?>/adminpageappointmentinfo">Appointment Page</a></li>  
                     </ul>
                 </li> 
             </ul>
@@ -109,29 +109,29 @@
         <nav class="navbar-sidebar">
             <ul class="list-unstyled navbar__list">
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpagebusiness"><i class="fas fa-info"></i>Business Info</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpagebusiness"><i class="fas fa-info"></i>Business Info</a>
                 </li>                                         
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpagestaff"><i class="fas fa-user"></i>Staff</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpagestaff"><i class="fas fa-user"></i>Staff</a>
                 </li>     
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpageappointment"><i class="fas fa-book"></i>Appointments</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpageappointment"><i class="fas fa-book"></i>Appointments</a>
                 </li>               
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpageassessment"><i class="fas fa-clipboard"></i></i>Assessment</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpageassessment"><i class="fas fa-clipboard"></i></i>Assessment</a>
                 </li>
                 <li>
-                    <a class="js-arrow" href="/websetup/public/adminpageriskanalysis"><i class="fas fa-tachometer-alt"></i>Risk Analysis</a>
+                    <a class="js-arrow" href="<?php echo base_url();?>/adminpageriskanalysis"><i class="fas fa-tachometer-alt"></i>Risk Analysis</a>
                 </li>             
                 <li class="has-sub"><a class="js-arrow" href="#"><i class="fas fa-copy"></i></i>Page Contents</a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">                                        
-                        <li><a href="/websetup/public/adminpageheader">Menu Bar</a></li>                                  
-                        <li><a href="/websetup/public/adminpagehome">Home</a></li>
-                        <li><a href="/websetup/public/adminpageteam">Team</a></li>
-                        <li><a href="/websetup/public/adminpageservices">Services</a></li>                
-                        <li><a href="/websetup/public/adminpagequestionnaire">Questionnaire</a></li>      
-                        <li><a href="/websetup/public/adminpagegallery">Gallery</a></li>      
-                        <li><a href="/websetup/public/adminpageappointmentinfo">Appointment Page</a></li> 
+                        <li><a href="<?php echo base_url();?>/adminpageheader">Menu Bar</a></li>                                  
+                        <li><a href="<?php echo base_url();?>/adminpagehome">Home</a></li>
+                        <li><a href="<?php echo base_url();?>/adminpageteam">Team</a></li>
+                        <li><a href="<?php echo base_url();?>/adminpageservices">Services</a></li>                
+                        <li><a href="<?php echo base_url();?>/adminpagequestionnaire">Questionnaire</a></li>      
+                        <li><a href="<?php echo base_url();?>/adminpagegallery">Gallery</a></li>      
+                        <li><a href="<?php echo base_url();?>/adminpageappointmentinfo">Appointment Page</a></li> 
                     </ul>
                 </li> 
             </ul>
@@ -154,7 +154,7 @@
                     <div class="header-button">
                         <div class="noti-wrap">  
                             <div class="noti__item">
-                                <a href="/websetup/public/admin" title="Home"><i class="fas fa-home"></i></a>                         
+                                <a href="<?php echo base_url();?>/admin" title="Home"><i class="fas fa-home"></i></a>                         
                             </div>                        
                             <div class="noti__item js-item-menu">
                                 <i class="zmdi zmdi-notifications"></i>
@@ -231,7 +231,7 @@
                                         </div>
                                     </div>
                                     <div class="account-dropdown__footer">
-                                        <a href="<?php echo base_url('/websetup/public/Login/logout/')?>"><i class="zmdi zmdi-power"></i>Logout</a>
+                                        <a href="<?php echo base_url('/Login/logout/')?>"><i class="zmdi zmdi-power"></i>Logout</a>
                                     </div>
                                 </div>
                             </div>
